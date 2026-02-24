@@ -1,7 +1,9 @@
-ervices:
+services:
+
   - type: web
     name: apex-command-center
     env: static
     buildCommand: ""
     staticPublishPath: ./
-    plan: free
+    plan: starter
+  
